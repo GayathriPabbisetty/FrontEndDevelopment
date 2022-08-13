@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dining table</title>
+</head>
+
+<body>
+    <h1>Dining booking</h1>
+    <form action="success.html">
+        <table>
+            <tr>
+                <th>Name</th>
+                <td><input type="text" required /></td>
+
+            </tr>
+            <br>
+            <tr>
+                <th>No of members:</th>
+                <td><input type="number" required /></td>
+            </tr>
+            <tr>
+                <th>Contact:</th>
+                <td><input type="number" required /></td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td><input type="email" required /></td>
+            </tr>
+            <tr>
+                <th>Type of food</th>
+                <td><input type="checkbox" name="f" value="si" checked> South Indian
+                    <input type="checkbox" name="fo" value="ni"> North Indian
+                    <input type="checkbox" name="foo" value="chi"> Chinese
+                    <input type="checkbox" name="food" value="we"> Western
+                </td>
+            </tr>
+            <tr>
+                <th>Type</th>
+                <td>
+                    <input type="radio" name="type" value="male" checked> AC
+                    <input type="radio" name="type" value="female"> Non AC
+                </td>
+            </tr>
+            <tr>
+                <th>Venue Preference</th>
+                <td>
+                    <select name="--select--" id="ch">
+                        <option value="ch">Charminar</option>
+                        <option value="go">Golconda</option>
+                        <option value="ta">Tank Bund</option>
+                        <option value="ra">Ramoji Film City</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="book" />
+        <input type="reset" value="reset" />
+    </form>
+</body>
+
+</html>

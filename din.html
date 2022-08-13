@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dining</title>
+</head>
+
+<body>
+    <h1>Dining booking</h1>
+    <form action="success.html">
+        <label>Name:</label><input type="text" required />
+        <br>
+        <br>
+        <label>No of members:</label><input type="number" required />
+        <br>
+        <br>
+        <label>Contact:</label><input type="number" required />
+        <br>
+        <br>
+        <label>Email:</label><input type="email" required />
+        <br>
+        <br>
+        <label>Type of food</label>
+        <input type="checkbox" name="f" value="si" checked> South Indian
+        <input type="checkbox" name="fo" value="ni"> North Indian
+        <input type="checkbox" name="foo" value="chi"> Chinese
+        <input type="checkbox" name="food" value="we"> Western
+        <br>
+        <br>
+        <label>Type</label>
+        <input type="radio" name="type" value="male" checked> AC
+        <input type="radio" name="type" value="female"> Non AC
+        <br>
+        <br>
+        <label>Venue Preference</label>
+        <select name="--select--" id="ch">
+            <option value="ch">Charminar</option>
+            <option value="go">Golconda</option>
+            <option value="ta">Tank Bund</option>
+            <option value="ra">Ramoji Film City</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="book" />
+        <input type="reset" value="reset" />
+    </form>
+</body>
+
+</html>
